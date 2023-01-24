@@ -1,13 +1,18 @@
 Shortcuts
+// shortcuts to commit to main branch
+git status && git add . && git commit -m "  " && git push origin main
 
-git add . && git commit -m "  " && git push origin main
+// shortcuts to commit to laura branch
+git status && git add . && git commit -m "  " && git push origin laura
 
-git add . && git commit -m "  " && git push origin laura
-
-git add . && git commit -m "  " && git push origin ikerne
+// shortcuts to commit to ikerne branch
+git status && git add . && git commit -m "  " && git push origin ikerne
 
 // para salir de syntax de git [mira que cambia de zsh a git en terminal]
 :qa
+
+//always use git pull origin main
+git pull origin main
 
 
 
