@@ -5,3 +5,10 @@ git add . && git commit -m "  " && git push origin main
 git add . && git commit -m "  " && git push origin laura
 
 git add . && git commit -m "  " && git push origin ikerne
+
+
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
+
+https://vercel.com/ikerne/midterm-ironhack
