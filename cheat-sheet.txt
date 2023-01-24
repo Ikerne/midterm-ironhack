@@ -6,11 +6,12 @@ git add . && git commit -m "  " && git push origin main
 git add . && git commit -m "  " && git push origin laura
 
 // shortcuts to commit to ikerne branch
-git add . && git commit -m "  " && git push origin ikerne
+git status && git add . && git commit -m "  " && git push origin ikerne
 
 // para salir de syntax de git [mira que cambia de zsh a git en terminal]
 :qa
 
+HOLA!!!
 
 
 - [ ] Tarea no completada
