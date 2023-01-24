@@ -12,3 +12,5 @@ git add . && git commit -m "  " && git push origin ikerne
 - [x] Tarea Completada
 
 https://vercel.com/ikerne/midterm-ironhack
+
+https://midterm-project.vercel.app/index.html
