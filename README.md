@@ -115,13 +115,12 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Crear el javaScript de landing page
 - [] Crear el HTML de projects
 - [] Crear el javaScript de projects
+- [] Crear el HTML de contact us
+- [] Crear el javaScript de contact us
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
-
-- [] Crear el HTML de contact us
-- [] Crear el javaScript de contact us
 - [] Crear el HTML de about us
 - [] Crear el javaScript de about us
 
