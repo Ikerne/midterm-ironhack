@@ -1,0 +1,7 @@
+Shortcuts
+
+git add . && git commit -m "  " && git push origin main
+
+git add . && git commit -m "  " && git push origin laura
+
+git add . && git commit -m "  " && git push origin ikerne

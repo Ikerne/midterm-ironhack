@@ -27,7 +27,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 <div align="center">
   <img src="./resources/readMe/wu.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
-  <a href="https://midterm-project.vercel.app/">Visit Website</a>
+  <a href="https://midterm-ironhack-qj00s0v5r-ikerne.vercel.app/">Visit Website</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -104,26 +104,33 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Day One
 
-#### Day One
-
 ###### Lunes 23, Enero 2023
-
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] Crear el repo
+- [x] Crear dos branches, una para cada miembro del equipo
 
 #### Day Two
 
 ###### Martes 24, Enero 2023
+- [] Crear el HTML de landing page
+- [] Crear el HTML de contact us
+- [] Crear el HTML de about us
+- [] Crear el HTML de projects
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
+- [] Crear el CSS de landing page
+- [] Crear el CSS de contact us
+- [] Crear el CSS de about us
+- [] Crear el CSS de projects
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
+- [] Crear el javaScript de landing page
+- [] Crear el javaScript de contact us
+- [] Crear el javaScript de about us
+- [] Crear el javaScript de projects
 
 #### Day Five
 
