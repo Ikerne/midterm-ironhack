@@ -6,29 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle Agency</title>
     <link rel="stylesheet" href="resources/styles/style.css" />
-    
-    
-
-
+ 
   </head>
   <body>
    <!-- navigation section -->
 <section id="navbar">
-  <div>
-    
+  <nav>
+  <div class = "circle logo">
+    <a href="index.html"></a>
   </div>
+  <!-- divs for all the links -->
+  <div class="all-the-links">
+  <a class=homeLink href="/index.html">Home</a>
+  <a class=projectsLink href="/project.html">Projects</a>
+  <a class=servicesLink href="/contact-us.html">Services</a>
+  <a class=aboutusLink href="/aboutUs.html">About Us</a>
+</div>
+<!-- div for the contact button -->
+<div id="bluecontactusbutton" class="blue-button">
+  <a href="/contact-us.html" class ="blue-button">Contact Us</a>
+</div>
+<!-- bar menu list -->
+<ul class="barmenu">
+  <li>
+  <a href="/index.html">Home</a>
+</li>
+<li>
+  <a href="project.html">Projects</a>
+</li>
+<li>
+  <a href="/contact-us.html">Services</a>
+</li>
+<li>
+  <a href="/aboutUs.html">About Us</a>
+</ul>
+</nav>
 </section>
 
 <!-- div for all sections except navbar will be used for special effects/functions that affect the whole page -->
 <div>
 <!-- hero section -->
-<section id="hero" >
+<section id="hero">
+  <div class="text">
+    <h1>Empower Your Business With Stunning Design!</h1>
+    <p>Circle is a digital design and development studio.<br>We design and dvelop astonishing websites and mobile apps.</p>
+    <div class="hero-buttons">
+      <a class="seeOurWork" href="#">See our work</a>
+      <a class="blue-button" href="/contact-us.html">Get in touch</a>
+    </div>
+  </div>
+  <div id="hero-images">
+    <img id="man pic" src="../midterm-ironhack/resources/images/hero-section/hero-image.png" alt="man pic">
+
+  </div>
+
 
 </section>
 <!-- brands section -->
 <section id="brands" >
 
 </section>
+
 <!-- projects section -->
 <section id = "projects"> 
   <!-- title div -->
@@ -44,6 +82,7 @@
 </section>
  </div> <!--closing div for all sections except navbar  -->
   </body>
+  
 <!-- javaScript sources -->
   <script src="./resources/js/index.js"></script>
 </html>
