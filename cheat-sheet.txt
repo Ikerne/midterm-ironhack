@@ -6,6 +6,9 @@ git add . && git commit -m "  " && git push origin laura
 
 git add . && git commit -m "  " && git push origin ikerne
 
+// para salir de syntax de git [mira que cambia de zsh a git en terminal]
+:qa
+
 
 
 - [ ] Tarea no completada
