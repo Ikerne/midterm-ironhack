@@ -3,7 +3,8 @@
 :root {
   --primary: #072ac8;
   --primaryLight: #3186F5;
-  --white: #edf3f3;
+  --whiteish: #edf3f3;
+  --White: #ffffff;
   --Dark: #2b2727;
   --Gray:  #686565;
 }
@@ -21,6 +22,7 @@ body {
   font-size: 16px;
   line-height: 25px;
 }
+
 
 
 
@@ -64,6 +66,15 @@ nav a:hover {
 }
 
 
+/* blue buttons*/
+.blue-button {
+  background-color: #072ac8;
+  color: #ffffff;
+  font-weight: 450;
+  font-size: 1rem;
+  padding: .25rem;
+  text-decoration: none;
+}
 /* burger */
 #navbar ul{
   list-style-type: none;
