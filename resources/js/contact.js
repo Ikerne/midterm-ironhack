@@ -7,7 +7,7 @@ const sendForm = (preventForm) => {
     let phone = document.querySelector('#phone').value;
     let message = document.querySelector('#message').value;
 
-    //console.log(`${name} ${email} ${phone} ${message}`);
+    console.log(`Form values: ${name} ${email} ${phone} ${message}`);
 
     fetch('https://jsonplaceholder.typicode.com/posts', {
         method: 'POST',
@@ -22,18 +22,18 @@ const sendForm = (preventForm) => {
         })
         .then((response) => {
             if(response.status===201){
-                alertMessage('Thank you! Your message has been sent correctly.');
+                // alert('Thank you! Your message has been sent.');
                 document.querySelector('.alertMessage').style.display = "block";
-                setTimeout(()=> document.querySelector('.alert').style.display = "none", 4500);
-                document.getElementById("formularioMessage").reset();
+                setTimeout(()=> document.querySelector('.alertMessage').style.display = "none", 3000);
+                document.getElementById("formularioContent").reset();
             } else {
-                errorMessage('Uh-Oh! Something went wrong. Please fill out the form again.');
+                // alert('Uh-Oh! Something went wrong.');
                 document.querySelector('.errorMessage').style.display = "block";
-                setTimeout(()=> document.querySelector('.errorMessage').style.display = "none", 4500);
+                setTimeout(()=> document.querySelector('.errorMessage').style.display = "none", 3000);
             }
             return response.json();
         })
         .then((json) => console.log(json));
 }
 
-document.querySelector('#formularioMessage').addEventListener('submit', sendForm);
+document.querySelector('#formularioContent').addEventListener('submit', sendForm);

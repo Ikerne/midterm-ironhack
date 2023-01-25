@@ -93,11 +93,39 @@ nav a:hover {
 
 /* ------------------------------ Questions form ------------------------------ */
 
-/* Your CSS code goes here */
 
-/* ------------------------------ Footer ------------------------------ */
 
-/* Your CSS code goes here */
+.footer-logo { 
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 20px;
+}
+.address {
+  text-align: right;
+  margin-bottom: 30px;
+  width: 40px;
+  margin-left: 6px; 
+}
+.footer-image-logo {
+  text-align: right;
+  margin-bottom: 30px;
+  width: 40px;
+  margin-left: 6px;
+
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 60%;
+  text-align: right;
+}
+
+
 
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
@@ -111,51 +139,60 @@ nav a:hover {
 /* ------------------------------ CONTACT-US html ------------------------------ */
 
 
-#formularioMessage form {
-  display: flex;
-  flex-direction: column;
-}
-.email {
-  display: flex;
-  justify-content: space-between;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.email div {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-.phone {
-  display: flex;
-  justify-content: space-between;
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background-color: #f2f4fc;
+  color: #292e47;
+  display: block;
+  
+
 }
 
-.phone div {
-  width: 50%;
+
+
+.formularioTitle{
   display: flex;
   flex-direction: column;
-}
-#formularioContent,
-.formularioMessage {
-  padding: 0 14px 0 14px;
-}
-.formularioTitle h1 {
-  padding-bottom: 70px;
+  justify-content: space-around;
+  padding: 5vw 5vw 5vw 2vw;
+  margin: 5vw 5vw 5vw 2vw;
 }
 label {
   font-size: 1.2rem;
   font-weight: 400;
-  color: #6b708d;
+  color: #6B708D; /*change color laters*/
   margin-bottom: 10px;
 }
 input {
   border: 0;
-  background-color: rgba(107, 112, 141, 0.1);
+  background-color: rgba(107, 112, 141, 0.1);  /*change color laters*/
   height: 70px;
   font-weight: 400;
   font-size: 1.1rem;
   padding-left: 15px;
   margin-bottom: 24px;
+}
+
+.name input {
+  width: 100%;
+  align-self: right;
+}
+
+.email input {
+  width: 49%;
+  align-self: left;
+}
+.phone input {
+  width: 49%;
+  align-self: right;
 }
 textarea {
   border: 0;
@@ -163,25 +200,51 @@ textarea {
   height: 200px;
   font-weight: 400;
   font-size: 1.1rem;
-  font-family: "Roboto", sans-serifg;
+  font-family: "Roboto", sans-serif;
   padding-top: 7px;
   padding-left: 15px;
   margin-bottom: 24px;
 }
-.submitButton {
-  background-color: #072ac8;
+.email-phone{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  justify-content: flex-end;
+
+}
+.email-phone div{
+width:50%;
+}
+.email-phone div input{
+width:99%;
+}
+
+.phone input{
+width: 100%;
+}
+.message textarea{
+width: 100%;
+}
+
+.submit {
+  background-color: #072AC8;
   color: white;
   font-weight: 500;
   font-size: 1.05rem;
   padding: 25px;
   text-decoration: none;
-  width: 20%;
+  width:100%
+  
+  
+}
+.submit:hover{
+  cursor: pointer;
+  background-color: #6B708D;
 }
 
-.submitButton:hover {
-  background-color: #292e47;
-}
------------------------------------------------------------------------------ */
+
+/* ----------------------------------------------------------------------------- */
 
 /* ------------------------------ Form ------------------------------ */
 
@@ -213,7 +276,39 @@ textarea {
 
 /* ------------------------------ Alert ------------------------------ */
 
-/* Your CSS code goes here */
+.errorMessage {
+  display: none;
+  padding: 20px;
+  background-color: #EA2121;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.alertMessage {
+  display: none;
+  padding: 20px;
+  background-color: #25BC5C;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.submitButton {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submitButton:hover {
+  color: black;
+}
 
 /* ------------------------------ Sticky scroll bar ------------------------------ */
 
