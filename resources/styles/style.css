@@ -2,8 +2,10 @@
 
 :root {
   --primary: #072ac8;
+  --primaryLight: #3186F5;
   --white: #edf3f3;
   --Dark: #2b2727;
+  --Gray:  #686565;
 }
 
 * {
@@ -36,7 +38,36 @@ body {
 
 /* ------------------------------ Navbar ------------------------------ */
 
-/* Your CSS code goes here */
+/* Navigation bar container */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edf3f3;
+  color: #686565;
+  padding: 10px;
+  width: 90vw;
+}
+
+/* Navigation links */
+nav a {
+  color: #686565;
+  text-decoration: none;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+nav a:hover {
+  color: #3186f5;
+  cursor: pointer;
+}
+
+
+/* burger */
+#navbar ul{
+  list-style-type: none;
+}
 
 
 
@@ -94,8 +125,8 @@ body {
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
 /* --------------------------------------------------------------------------- */
 
-/* ------------------------- Smaller than 990px (tablet) ------------------------- */
-@media (max-width: 990px) {
+/* ------------------------- Bigger than 768px (desktop) ------------------------- */
+@media (min-width: 768px) {
   /* Your CSS code goes here */
 }
 
