@@ -4,6 +4,7 @@ const getProjects = () => {
     fetch (`https://jsonplaceholder.typicode.com/posts`)
     .then((response)=> response.json())
     .then ((data)=> {
+        console.log(data)
         for (let i=0; i<3; i++){
             document.querySelector(".container-project").innerHTML += 
             `<div class = "project"> 
