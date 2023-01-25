@@ -22,13 +22,14 @@ const sendForm = (preventForm) => {
         })
         .then((response) => {
             if(response.status===201){
-                alert('Thank you, your message has been sent.');
-                document.querySelector('.alert').style.display = "block";
-                setTimeout(()=> document.querySelector('.alert').style.display = "none", 4000);
+                alertMessage('Thank you! Your message has been sent correctly.');
+                document.querySelector('.alertMessage').style.display = "block";
+                setTimeout(()=> document.querySelector('.alert').style.display = "none", 4500);
                 document.getElementById("formularioMessage").reset();
             } else {
-                document.querySelector('.alert-wrong').style.display = "block";
-                setTimeout(()=> document.querySelector('.alert-wrong').style.display = "none", 4000);
+                errorMessage('Uh-Oh! Something went wrong. Please fill out the form again.');
+                document.querySelector('.errorMessage').style.display = "block";
+                setTimeout(()=> document.querySelector('.errorMessage').style.display = "none", 4500);
             }
             return response.json();
         })
