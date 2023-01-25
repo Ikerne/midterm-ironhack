@@ -17,8 +17,8 @@ const getHeroProject = () => {
         console.log(data)
         const title = data[0].title.substring(0, data[0].title.indexOf(" "));
         const subtitle = data[0].title;
-const subtitleWords = subtitle.split(' ');
-const shortenedSubtitle = subtitleWords.slice(0, 5).join(' ');
+        const subtitleWords = subtitle.split(' ');
+        const shortenedSubtitle = subtitleWords.slice(0, 5).join(' ');
 
         document.querySelector(".hero-project-container").innerHTML +=
         `<h1>${title}</h1>

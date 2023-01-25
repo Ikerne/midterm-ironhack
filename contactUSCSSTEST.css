@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    background-color: #f2f4fc;
+    color: #292e47;
+    display: block;
+    
+
+}
+
+
+
+.formularioTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vw 5vw 5vw 2vw;
+    margin: 5vw 5vw 5vw 2vw;
+}
+label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #6B708D; /*change color laters*/
+    margin-bottom: 10px;
+}
+input {
+    border: 0;
+    background-color: rgba(107, 112, 141, 0.1);  /*change color laters*/
+    height: 70px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-left: 15px;
+    margin-bottom: 24px;
+}
+
+.name input {
+    width: 100%;
+    align-self: right;
+}
+
+.email input {
+    width: 49%;
+    align-self: left;
+}
+.phone input {
+    width: 49%;
+    align-self: right;
+}
+textarea {
+    border: 0;
+    background-color: rgba(107, 112, 141, 0.1);
+    height: 200px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    padding-top: 7px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+  }
+  .email-phone{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    justify-content: flex-end;
+
+  }
+.email-phone div{
+  width:50%;
+}
+.email-phone div input{
+width:99%;
+}
+
+.phone input{
+  width: 100%;
+}
+.message textarea{
+  width: 100%;
+}
+
+  .submit {
+    background-color: #072AC8;
+    color: white;
+    font-weight: 500;
+    font-size: 1.05rem;
+    padding: 25px;
+    text-decoration: none;
+    width:100%
+    
+    
+  }
+  .submit:hover{
+    cursor: pointer;
+    background-color: #6B708D;
+  }
+  /* .email {
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+  }
+  .phone {
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    
+  }
+  .message {
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+  }
+  .emailyphone div {
+    width: 50%;
+    position:absolute;
+  }
+  #formulario {
+    padding: 0 14px 0 14px;
+  }
+  .formularioTitle h1 {
+    padding-bottom: 70px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  }
+  input {
+    border: 0;
+    background-color: rgba(107, 112, 141, 0.1);
+    height: 70px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-left: 15px;
+    margin-bottom: 24px;
+  }
+  textarea {
+    border: 0;
+    background-color: rgba(107, 112, 141, 0.1);
+    height: 200px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    padding-top: 7px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+  }
+  .submit {
+    background-color: #072AC8;
+    color: white;
+    font-weight: 500;
+    font-size: 1.05rem;
+    padding: 25px;
+    text-decoration: none;
+  }
+   */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  

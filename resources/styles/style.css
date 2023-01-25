@@ -3,9 +3,11 @@
 :root {
   --primary: #072ac8;
   --primaryLight: #3186F5;
-  --white: #edf3f3;
+  --whiteish: #edf3f3;
+  --White: #ffffff;
   --Dark: #2b2727;
   --Gray:  #686565;
+  --darkGrayBlue:#28294be0;
 }
 
 * {
@@ -20,7 +22,10 @@ body {
   color: #2b2727;
   font-size: 16px;
   line-height: 25px;
+  font-style: normal;
+  font-weight: 325;
 }
+
 
 
 
@@ -64,6 +69,20 @@ nav a:hover {
 }
 
 
+/* blue buttons*/
+.blue-button {
+  background-color: #072ac8;
+  color: #ffffff;
+  font-weight: 450;
+  font-size: 1rem;
+  padding: .25rem;
+  text-decoration: none;
+}
+.blue-button:hover{
+  background-color: #2b2727;
+  color:  #ffffff;
+}
+
 /* burger */
 #navbar ul{
   list-style-type: none;
@@ -75,15 +94,311 @@ nav a:hover {
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Partners ------------------------------ */
+#hero{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 25px 25px 25px;
+}
 
-/* Your CSS code goes here */
+#hero > div {
+  width: 50%;
+}
+
+.text h1{
+  font-size: 3rem;
+  color: #292e47;
+  font-style: normal;
+  margin: 25px 0 40px 0;
+  line-height: 120%;
+ 
+}
+
+.text p{
+  font-size: 1.3rem;
+  color: #6b708d;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 25px 0 40px 0;
+}
+
+.seeOurWork{
+  color: #686565;
+  text-decoration: none;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+.hero-buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#hero-images{
+  position: relative;
+}
+#man-pic{
+width: 100%;
+}
+
+#credit-card{
+  position: absolute;
+  left: -20%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  max-width: 50%;
+}
+
+#thumbs-up{
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -15%;
+  bottom: -20%;
+  max-width: 50%;
+  z-index: 2;
+}
+/* ------------------------------ Partners ------------------------------ */
+.slider {
+  background: #efeef2;
+  height: 75pt;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  user-select: none;
+  touch-action: none;
+}
+
+.slider:before {
+  left: 0;
+  top: 0;
+}
+.slider:after,
+.slider:before {
+  background: linear-gradient(
+      to right,
+      #efeef2 0%,
+      hsla(0, 0%, 100%, 0) 100%
+  );
+  content: "";
+  height: 75pt;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider:after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider:after,
+.slider:before {
+  background: linear-gradient(
+      to right,
+      #efeef2 0%,
+      hsla(0, 0%, 100%, 0) 100%
+  );
+  content: "";
+  height: 75pt;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider .slide-track-1 {
+  animation: scroll-l 20s linear infinite;
+  display: flex;
+  width: 3500px;
+}
+.slider .slide-track-2 {
+  animation: scroll-r 20s linear infinite;
+  display: flex;
+  width: 3500px;
+}
+
+.slider .slide {
+  height: 75pt;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.slider .slide img {
+  width: 180px;
+  padding: 1pc;
+  vertical-align: middle;
+  margin: 0 auto;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+@keyframes scroll-l {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-250px * 6));
+  }
+}
+@keyframes scroll-r {
+  100% {
+      transform: translateX(0);
+  }
+  0% {
+      transform: translateX(calc(-250px * 6));
+  }
+}
+
 
 /* ------------------------------ Recent projects ------------------------------ */
+.recent-projects{
+  margin: 75px 5px 65px 5px;
 
-/* Your CSS code goes here */
+}
+
+.recent-projects h2{
+  font-size: 2rem;
+}
+
+.container-project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 5px;
+  margin: 15px;
+}
+
+.project {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  height: 250px;
+}
+
+.project h3 {
+  font-size: 1.3rem;
+  margin: 27px;
+}
+
+.project p {
+  font-size: 1.1rem;
+  margin: 0 27px 27px 27px;
+}
+
+.project a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #072ac8;
+  margin: 0 27px 27px 27px;
+}
 
 /* ------------------------------ Client reviews ------------------------------ */
+#reviews {
+  background-color: #28294be0;
+  background-image: url("/resources/images/testimonial-section/orbit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-top: 100px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+}
+
+#reviews h2 {
+  color: #edf3f3;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+#reviews p {
+  width: 50%;
+  color: #e4e12b;
+  font-size: 2rem;
+}
+
+.kristinWatson {
+  width: 20%;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.kristinWatson img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.kristinWatson h4 {
+  color: #7cc2ff;
+  font-weight: 400;
+}
+
+.kristinWatson h5 {
+  color: white;
+  font-weight: 400;
+}
+
+.kristinWatson div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.memoji1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+}
+.memoji2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  left: auto;
+  bottom: auto;
+}
+.memoji3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  right: auto;
+  top: auto;
+}
+.memoji4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  left: auto;
+  top: auto;
+}
 
 /* Your CSS code goes here */
 
