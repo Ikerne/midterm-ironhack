@@ -1,1 +1,16 @@
 Crea tu propio JSON
+[
+{
+    "firstName": "Laura",
+    "age": 29,
+    "hobbies": "Being a queen", 
+    "bio": "Still being written",
+},
+
+{
+    "firstName": "Ikerne",
+    "age": 34,
+    "hobbies": "gardening stuff",
+    "bio": "Still being written",
+}
+]
