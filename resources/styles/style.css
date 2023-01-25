@@ -2,6 +2,8 @@
 
 :root {
   --primary: #072ac8;
+  --white: #edf3f3;
+  --Dark: #2b2727;
 }
 
 * {
@@ -12,6 +14,10 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #edf3f3;
+  color: #2b2727;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 
@@ -31,6 +37,8 @@ body {
 /* ------------------------------ Navbar ------------------------------ */
 
 /* Your CSS code goes here */
+
+
 
 /* ------------------------------ Header ------------------------------ */
 
