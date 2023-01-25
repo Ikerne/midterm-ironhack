@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/contactUSCSSTEST.css" />
+</head>
+    <body>
+        <section id="navbar">
+            <nav>
+            <div class = "circle-logo">
+              <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
+              <a href="index.html"></a>
+            </div>
+            <!-- divs for all the links -->
+            <div class="all-the-links">
+            <a class=homeLink href="/index.html">Home</a>
+            <a class=projectsLink href="/project.html">Projects</a>
+            <a class=servicesLink href="/contact-us.html">Services</a>
+            <a class=aboutusLink href="/aboutUs.html">About Us</a>
+          </div>
+          <!-- div for the contact button -->
+          <div id="bluecontactusbutton" class="blue-button">
+            <a href="/contact-us.html" class ="blue-button">Contact Us</a>
+          </div>
+          <!-- bar menu list -->
+          <ul class="barmenu">
+            <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="project.html">Projects</a>
+          </li>
+          <li>
+            <a href="/contact-us.html">Services</a>
+          </li>
+          <li>
+            <a href="/aboutUs.html">About Us</a>
+          </ul>
+          </nav>
+          </section>
+          <div class="alertMessage">
+            <span class="submitButton" onclick="this.parentElement.style.display='none';"></span>
+            <b>Thank you!</b>
+            "Your message has been sent correctly."
+          </div>
+          <div class="errorMessage">
+            <span class="submitButton" onclick="this.parentElement.style.display='none';"></span>
+            <b>Uh-Oh!</b>
+            "Something went wrong. Please fill out the form again."
+          </div>
+
+ <!-- formulrio -->
+
+    <section id="formulario">
+            <div class="formularioTitle">
+                <h1>Contact Us</h1>
+                <!-- <div id="formularioContacto" class="formularioTable"> -->
+                    <form id="formularioContent" action="">
+                        <div class="name">    
+                             <label for="name">Full Name *</label>
+                            <input id="name" type="text" placeholder="Enter your full name" required>
+                        </div>
+                        <div class = "email-phone">
+                            <div class="email">
+                                <label for="email">E-mail *</label>
+                                <input id="email" type="email" placeholder="Enter your e-mail" required>
+                            </div>
+
+                            <div class="phone">
+                                <label for="phone">Phone Number</label>
+                                <input id="phone" type="tel" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                        <div class="message">
+                            <label for="message">Message *</label>
+                            <textarea placeholder="Write your message here" maxlength="2000" id="message" required></textarea>
+                        </div>
+
+                        <div><button class="submit" type="submit">Submit</button></div>
+                    </form>
+                <!-- </div> -->
+            </div>
+      </section>
+    <footer>
+            <div class="footer-logo">
+                <div class="footer-image-logo">
+                  <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
+                </div>
+                <div class="address">
+                  <p>2972 Westheimer Rd. Santa Ana,<br>Illinois 85486</p>
+                </div>
+            </div>
+          <div class="footer-links">
+            <a href="#"><div>Team</div></a>
+            <a href="#"><div>Services</div></a>
+            <a href="#"><div>About Us</div></a>
+            <a href="#"><div>Press</div></a>
+            <a href="#"><div>Projects</div></a>
+            <a href="#"><div>Privacy Policy</div></a>
+          </div>
+        </footer>
+    </body>
+
+</html>
