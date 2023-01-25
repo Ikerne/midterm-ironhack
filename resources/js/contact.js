@@ -22,10 +22,10 @@ const sendForm = (preventForm) => {
         })
         .then((response) => {
             if(response.status===201){
-                //alert('Thank you, your message has been sent.');
+                alert('Thank you, your message has been sent.');
                 document.querySelector('.alert').style.display = "block";
                 setTimeout(()=> document.querySelector('.alert').style.display = "none", 6000);
-                document.getElementById("form-message").reset();
+                document.getElementById("formularioMessage").reset();
             } else {
                 document.querySelector('.alert-wrong').style.display = "block";
                 setTimeout(()=> document.querySelector('.alert-wrong').style.display = "none", 6000);
@@ -35,4 +35,4 @@ const sendForm = (preventForm) => {
         .then((json) => console.log(json));
 }
 
-document.querySelector('#form-message').addEventListener('submit', sendForm);
+document.querySelector('#formularioMessage').addEventListener('submit', sendForm);
