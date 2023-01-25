@@ -113,28 +113,27 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Martes 24, Enero 2023
 - [x] Crear el HTML de landing page
 - [x] Crear el javaScript de landing page
-- [] Crear el HTML de projects
-- [] Crear el javaScript de projects
-- [] Crear el HTML de contact us
-- [] Crear el javaScript de contact us
+- [x] Crear el HTML de projects
+- [x] Crear el HTML de contact us
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
-- [] Crear el HTML de about us
-- [] Crear el javaScript de about us
+- [inProcess] Crear el javaScript de projects
+- [] Crear el javaScript de contact us
+- [inProcess] Crear el CSS de landing page
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 - [] Crear el CSS de landing page
 - [] Crear el CSS de contact us
-- [] Crear el CSS de about us
 - [] Crear el CSS de projects
 
 #### Day Five
 
 ###### Viernes 27, Enero 2023
+- [] Crear la presentación
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,6 +180,10 @@ En resumen, la sección "agradecimientos" es una excelente manera de agradecer a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
+
+– El primer reto que nos encontramos fue poder trabajar exitosamente con diferentes branches dentro de gitHub. 
+– El segundo reto ha sido la parte de JavaScript en la sección de proyects. Al ser la primera vez que nos enfrentamos a este lenguaje en temas de proyecto. 
+– El nivel de proyecto es muy completo y extenso. Por lo que nos tomó tiempo saber cómo organizarnos para cumplir con todos los objetivos que el proyecto conlleva. 
 
 La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
 
