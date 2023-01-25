@@ -109,7 +109,79 @@ nav a:hover {
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
-/* ----------------------------------------------------------------------------- */
+
+
+#formularioMessage form {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#formularioContent,
+.formularioMessage {
+  padding: 0 14px 0 14px;
+}
+.formularioTitle h1 {
+  padding-bottom: 70px;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6b708d;
+  margin-bottom: 10px;
+}
+input {
+  border: 0;
+  background-color: rgba(107, 112, 141, 0.1);
+  height: 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-left: 15px;
+  margin-bottom: 24px;
+}
+textarea {
+  border: 0;
+  background-color: rgba(107, 112, 141, 0.1);
+  height: 200px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serifg;
+  padding-top: 7px;
+  padding-left: 15px;
+  margin-bottom: 24px;
+}
+.submitButton {
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 25px;
+  text-decoration: none;
+  width: 20%;
+}
+
+.submitButton:hover {
+  background-color: #292e47;
+}
+----------------------------------------------------------------------------- */
 
 /* ------------------------------ Form ------------------------------ */
 
