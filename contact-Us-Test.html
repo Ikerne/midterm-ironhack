@@ -8,39 +8,46 @@
     <link rel="stylesheet" href="/contactUSCSSTEST.css" />
 </head>
     <body>
-        <section id="navbar">
-            <nav>
-            <div class = "circle-logo">
-              <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
-              <a href="index.html"></a>
-            </div>
-            <!-- divs for all the links -->
-            <div class="all-the-links">
-            <a class=homeLink href="/index.html">Home</a>
-            <a class=projectsLink href="/project.html">Projects</a>
-            <a class=servicesLink href="/contact-us.html">Services</a>
-            <a class=aboutusLink href="/aboutUs.html">About Us</a>
+
+
+      <!-- testing burger -->
+      <section id="navbar">
+        <nav class = "navbar">
+          <div class = "circle-logo">
+            <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
+            <a href="index.html"></a>
           </div>
-          <!-- div for the contact button -->
+        <!-- divs for all the links -->
+          <div class="all-the-links">
+             <ul class="barmenu">
+                <li>
+                  <a class ="nav-link" href="/index.html">Home</a>
+                </li>
+                <li>
+                  <a  class ="nav-link" href="project.html">Projects</a>
+                </li>
+                <li>
+                  <a  class ="nav-link" href="/contact-us.html">Services</a>
+                </li>
+              </ul>
+              <div class ="hamburger">
+                <span class ="bar"></span>
+                <span class ="bar"></span>
+                <span class ="bar"></span>
+              </div> 
+          </div>
+      <!-- div for the contact button -->
           <div id="bluecontactusbutton" class="blue-button">
             <a href="/contact-us.html" class ="blue-button">Contact Us</a>
           </div>
-          <!-- bar menu list -->
-          <ul class="barmenu">
-            <li>
-            <a href="/index.html">Home</a>
-          </li>
-          <li>
-            <a href="project.html">Projects</a>
-          </li>
-          <li>
-            <a href="/contact-us.html">Services</a>
-          </li>
-          <li>
-            <a href="/aboutUs.html">About Us</a>
-          </ul>
-          </nav>
-          </section>
+        </nav>
+      </section>
+
+
+
+
+          <br>
+<br><br><br><br><br>
           <div class="alertMessage">
             <span class="submitButton" onclick="this.parentElement.style.display='none';"></span>
             <b>Thank you!</b>
@@ -52,7 +59,12 @@
             "Something went wrong. Please fill out the form again."
           </div>
 
+
+
+
+
  <!-- formulrio -->
+
 
     <section id="formulario">
             <div class="formularioTitle">
@@ -103,5 +115,5 @@
           </div>
         </footer>
     </body>
-
+    <script src="./testing.js"></script>
 </html>

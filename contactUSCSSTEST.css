@@ -161,13 +161,117 @@ width:99%;
     text-decoration: none;
   }
    */
+  /*nav css*/
+  /* Navigation bar container */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edf3f300;
+  color: #686565;
+  padding: 0 24px;
+  width: 100vw;
+  min-height: 70px;
+}
+
+.all-the-links li{
+  list-style: none;
+}
+/* Navigation links */
+nav a {
+  color: #686565;
+  text-decoration: none;
+  padding: 0px 10px;
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+
+/* Hover effect for links */
+nav a:hover {
+  color: #3186f5;
+  cursor: pointer;
+}
+.barmenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:60px
+}
+
+/* blue buttons*/
+.blue-button {
+  background-color: #072ac8;
+  color: #ffffff;
+  font-weight: 450;
+  font-size: 1rem;
+  padding: .5rem;
+  text-decoration: none;
+}
+.blue-button:hover{
+  background-color: #2b2727;
+  color:  #ffffff;
+}
+
+/* burger */
+#navbar ul{
+  list-style-type: none;
+}
+  /* testing hamburger*/
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #292e47;
+  }
   
   
-  
-  
-  
-  
-  
+  @media(max-width:768px){
+    .hamburger{
+      display: block;
+      position:  right;
+    }
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      opacity: 0;
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      opacity: 0;
+      transform: translateY(-8px) rotate(-45deg);
+    
+    }
+    .barmenu{
+      position:fixed; /*not sure if this is needed check laters*/
+      left: -100%;
+      top: 70px;
+      gap:0;
+      flex-direction: column;
+      background-color: #edf3f300;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .barmenu li{
+      margin: 16px 0;
+    }
+    .barmenu.active{
+      left: 0;
+    }
+#bluecontactusbutton{
+  display: none;
+}
+  }
   
   
   

@@ -8,39 +8,37 @@
     <link rel="stylesheet" href="resources/styles/style.css" />
 </head>
 <body>
-    <section id="navbar">
-        <nav>
-        <div class = "circle-logo">
-          <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
-          <a href="index.html"></a>
-        </div>
-        <!-- divs for all the links -->
-        <div class="all-the-links">
-        <a class=homeLink href="/index.html">Home</a>
-        <a class=projectsLink href="/project.html">Projects</a>
-        <a class=servicesLink href="/contact-us.html">Services</a>
-        <a class=aboutusLink href="/aboutUs.html">About Us</a>
+  <section id="navbar">
+    <nav class = "navbar">
+      <div class = "circle-logo">
+        <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
+        <a href="index.html"></a>
       </div>
-      <!-- div for the contact button -->
+    <!-- divs for all the links -->
+      <div class="all-the-links">
+         <ul class="barmenu">
+            <li>
+              <a class ="nav-link" href="/index.html">Home</a>
+            </li>
+            <li>
+              <a  class ="nav-link" href="/project.html">Projects</a>
+            </li>
+            <li>
+              <a  class ="nav-link" href="/index.html#services">Services</a>
+            </li>
+          </ul>
+          <div class ="hamburger">
+            <span class ="bar"></span>
+            <span class ="bar"></span>
+            <span class ="bar"></span>
+          </div> 
+      </div>
+  <!-- div for the contact button -->
       <div id="bluecontactusbutton" class="blue-button">
         <a href="/contact-us.html" class ="blue-button">Contact Us</a>
       </div>
-      <!-- bar menu list -->
-      <ul class="barmenu">
-        <li>
-        <a href="/index.html">Home</a>
-      </li>
-      <li>
-        <a href="project.html">Projects</a>
-      </li>
-      <li>
-        <a href="/contact-us.html">Services</a>
-      </li>
-      <li>
-        <a href="/aboutUs.html">About Us</a>
-      </ul>
-      </nav>
-      </section>
+    </nav>
+  </section>
 
       <div class="alertMessage">
         <span class="submitButton" onclick="this.parentElement.style.display='none';"></span>
@@ -85,23 +83,27 @@
 </section>
 
 <footer>
-        <div class="footer-logo">
-            <div class="footer-image-logo">
-              <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
-            </div>
-            <div class="address">
-              <p>2972 Westheimer Rd. Santa Ana,<br>Illinois 85486</p>
-            </div>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <div class="footer-image-logo">
+          <img src="./resources/images/logos/circle.svg" alt="Circle Agency Logo">
         </div>
-      <div class="footer-links">
-        <a href="#"><div>Team</div></a>
-        <a href="#"><div>Services</div></a>
-        <a href="#"><div>About Us</div></a>
-        <a href="#"><div>Press</div></a>
-        <a href="#"><div>Projects</div></a>
-        <a href="#"><div>Privacy Policy</div></a>
-      </div>
-    </footer>  
+        <div class="address">
+          <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+        </div>
+    </div>
+    <div class="footer-links">
+      <a href="#">Team</a>
+      <a href="#">Services</a>
+      <a href="#">About Us</a>
+      <a href="#">Press</a>
+      <a href="#">Projects</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+  </footer> 
 </body>
 <script src="./resources/js/contact.js"></script>
+
 </html>

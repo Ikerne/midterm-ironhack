@@ -78,6 +78,10 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
 
+Como parte del midterm de este bootcamp se nos asignó un proyecto titulado Circle Agency. El objetivo del mismo fue diseñar una página web para una compañía ficticia de diseño web que tuviera tres aspectos principales; la página debía ser "responsive" usando HTML, CSS y JavaScript con diferentes propiedades de diseño como Flexbox y Grid. Además era necesario utilizar Vercel para lanzar la página en vivo. Un reto extra del quer hablaremos más adelante fue el uso de GitHub para poder trabajar en pareja sobre un mismo documento. 
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
