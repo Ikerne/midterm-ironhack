@@ -562,6 +562,8 @@ line-height: 120%;
 .footer-logo { 
   display: flex;
   flex-direction: row;
+}
+
 .footer-container {
   display: grid;
   grid-template-columns: repeat(1fr 1fr);
