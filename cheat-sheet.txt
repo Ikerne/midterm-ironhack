@@ -14,6 +14,19 @@ git status && git add . && git commit -m "  " && git push origin ikerne
 //always use git pull origin main
 git pull origin main
 
+// jarko way 
+
+¿Qué hacer para actualizar una rama?
+git checkout NAME -> Cambiar de rama
+git pull origin main/master -> Descargar la rama principal (Actualiza la rama)
+============Trabajas en el projecto
+git status
+git add .
+git commit -m "frase"
+git push
+git checkout main
+git merge ester (editado)
+git push
 
 
 - [ ] Tarea no completada

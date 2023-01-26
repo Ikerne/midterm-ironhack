@@ -48,10 +48,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #edf3f3;
+  background-color: #edf3f300;
   color: #686565;
   padding: 10px;
-  width: 90vw;
+  width: 100vw;
 }
 
 /* Navigation links */
@@ -75,7 +75,7 @@ nav a:hover {
   color: #ffffff;
   font-weight: 450;
   font-size: 1rem;
-  padding: .25rem;
+  padding: .5rem;
   text-decoration: none;
 }
 .blue-button:hover{
@@ -166,7 +166,7 @@ width: 100%;
 }
 /* ------------------------------ Partners ------------------------------ */
 .slider {
-  background: #efeef2;
+  background: #edf3f300;
   height: 75pt;
   margin: 0 auto;
   overflow: hidden;
@@ -259,26 +259,38 @@ width: 100%;
 
 /* ------------------------------ Recent projects ------------------------------ */
 .recent-projects{
-  margin: 75px 5px 65px 5px;
+  margin: 1vw 5vw 1vw 5vw;
+  padding: 1vw 1vw 1vw 1vw;
+  width:90vw;
 
 }
 
 .recent-projects h2{
   font-size: 2rem;
+  margin: 0vw 0vw 0vw 1vw;
+  color: #292e47;
 }
 
 .container-project {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 5px;
-  margin: 15px;
+  grid-column-gap: 0.15vw;
+  grid-row-gap: 0.15vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: stretch;
+  justify-items: center;
+  width:90vw;
+  margin-left: 4vw;
+  padding: 3vw 1vw 3vw 1vw;
+  max-height: fit-content;
 }
 
 .project {
   background-color: white;
   padding-bottom: 20px;
+  width: 25vw;
 }
 
 .project img {
@@ -287,12 +299,12 @@ width: 100%;
 }
 
 .project h3 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin: 27px;
 }
 
 .project p {
-  font-size: 1.1rem;
+  font-size: .9rem;
   margin: 0 27px 27px 27px;
 }
 
@@ -310,7 +322,7 @@ width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
-  margin-top: 100px;
+  margin: 1vw 3vw 1vw 3vw;
   max-width: 100%;
   text-align: center;
   display: flex;
@@ -331,6 +343,7 @@ width: 100%;
   width: 50%;
   color: #e4e12b;
   font-size: 2rem;
+  line-height: 120%;
 }
 
 .kristinWatson {
@@ -348,7 +361,7 @@ width: 100%;
 
 .kristinWatson h4 {
   color: #7cc2ff;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .kristinWatson h5 {
@@ -400,16 +413,155 @@ width: 100%;
   top: auto;
 }
 
-/* Your CSS code goes here */
+
 
 /* ------------------------------ Services ------------------------------ */
+#services {
+  width: 95vw;
+}
 
-/* Your CSS code goes here */
+.services-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 2px;
+  align-self: center center;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: stretch;
+  justify-items: center;
+  width:90vw;
+  margin-left: 4vw;
+  padding: 3vw 1vw 3vw 1vw;
+  max-height: fit-content;
+
+}
+.servicesTitle{
+  margin: 2vw 0vw 0vw 5vw;
+  line-height: 120%;
+  font-size: 1.5rem;
+  color: #292e47;
+}
+.services {
+  background-color: #edf3f3;
+  padding-bottom: 20px;
+}
+
+#servicesIcon1 {
+  background-image: url("/resources/images/services-section/icons/1.svg");
+  background-color: #ecf6ff;
+  background-size: 55%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  margin: 30px 0 0 30px;
+  width: 100px;
+  height: 100px;
+}
+
+#servicesIcon2 {
+  background-image: url("/resources/images/services-section/icons/2.svg");
+  background-color: #ecf6ff;
+  background-size: 55%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  margin: 30px 0 0 30px;
+  width: 100px;
+  height: 100px;
+}
+
+#servicesIcon3 {
+  background-image: url("/resources/images/services-section/icons/3.svg ");
+  background-color: #ecf6ff;
+  background-size: 55%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  margin: 30px 0 0 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.services h3 {
+  font-size: 1.3rem;
+  margin: 30px;
+}
+
+.services p {
+  font-size: 1.1rem;
+  margin: 0 30px 30px 30px;
+}
+
+.services a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #072ac8;
+  margin: 0 30px 30px 30px;
+}
+
+
+
+
+
 
 /* ------------------------------ Questions form ------------------------------ */
+#questions{
+  background-color: #f7b707;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin: 1vw 3vw 1vw 3vw;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+}
+.title-subscribe h2{
+font-size: 2.5rem;
+color:#292e47;
+font-weight: 900;
+line-height: 120%;
+}
+#questions p {
+  color: #6b708dad;
+  font-weight: 450;
+  font-size: 1.5rem;
+}
 
+#email-input{
+  border: 0;
+  background: url(/resources/images/newsletter/icon/mail.svg) no-repeat scroll 10px 10px;
+  background-position: 2% 50%;
+  background-color: #ecf6ff;  /*change color laters*/
+  height: 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-left: 50px;
+  width: 40vw;
+}
+ #email-sub-btn{
+  background-color: #072ac8;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  height: 100px;
+ }  
 /* ------------------------------ footer ------------------------------ */
 
+/* ------------------------------------ Footer --------------------------------- */
+
+.footer-logo { 
+  display: flex;
+  flex-direction: row;
 .footer-container {
   display: grid;
   grid-template-columns: repeat(1fr 1fr);
@@ -440,9 +592,57 @@ width: 100%;
 /* ------------------------------ PROJECT html ------------------------------ */
 /* -------------------------------------------------------------------------- */
 
-/* ------------------------------ Project main ------------------------------ */
+/* ------------------------------ Project hero ------------------------------ */
+.hero-project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1vw 3vw 1vw 3vw;
+  line-height: 2rem;
+ 
+  
+}
+.subtitle-container{
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  
+}
 
-/* Your CSS code goes here */
+.subtitle-container h2, h3 {
+  font-weight: 400;
+  color: #6c718b;
+  margin: 2px 0 0px 0;
+  
+}
+
+h3{
+justify-content: right; 
+margin-left: 80%;
+}
+h1 {
+  font-size: 2rem;
+  color: #292e47;
+}
+
+.image-container img {
+  
+  object-fit: cover;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 40px;
+  
+}
+
+.project-body-container p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
