@@ -100,7 +100,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Backlog
 
-- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
+- [inProcess] Crear el CSS de landing page
 
 #### Day One
 
@@ -119,21 +119,27 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
-- [inProcess] Crear el javaScript de projects
-- [] Crear el javaScript de contact us
-- [inProcess] Crear el CSS de landing page
+- [x] Crear el javaScript de projects
+- [x] Crear el javaScript de contact us
+- [x] Crear el CSS de projects
+- [x] Crear el CSS de contact us
+
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
-- [] Crear el CSS de landing page
-- [] Crear el CSS de contact us
-- [] Crear el CSS de projects
+- [] Crear el CSS de hamburger menu
+- [] Crear el HTML y CSS de splash page
+- [] Crear el CSS del circular animation
+- [] Crear el CSS de las Media Queries
+- [] Crear el CSS de sticky scroll bar
+
 
 #### Day Five
 
 ###### Viernes 27, Enero 2023
 - [] Crear la presentación
+- [] Terminar el README
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
