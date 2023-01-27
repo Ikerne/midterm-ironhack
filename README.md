@@ -76,11 +76,11 @@ Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos a
 No hemos aplicado una licencia para este proyecto. La próxima vez usaremos Creative Commons.
 
 A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitosamente:
-    - <p align="right">(<a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a>)</p>
-    - <p align="right">(<a href="https://jsonplaceholder.typicode.com/posts">API</a>)</p>
-    - <p align="right">(<a href="https://getbutterfly.com/fast-and-accessible-css-only-client-logo-carousel/">Slider</a>)</p>
-    - <p align="right">(<a href="https://cssgrid-generator.netlify.app/">Grid Generator</a>)</p>
-
+    - <p align="left"><a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a></p>
+    - <p align="left"><a href="https://jsonplaceholder.typicode.com/posts">API</a></p>
+    - <p align="left"><a href="https://getbutterfly.com/fast-and-accessible-css-only-client-logo-carousel/">Slider</a></p>
+    - <p align="left"><a href="https://cssgrid-generator.netlify.app/">Grid Generator</a></p>
+    - <p align="left"><a href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap">Google Font Libraries</a></p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -141,6 +141,7 @@ Este proyecto se construyó con HTML, CSS y JavaScript. Para lanzar el proyecto 
 Como ya hemos mencionado, este proyecto se realizó en pareja por Laura Isabel Anguita e Ikerne Sanz. Para ambas es la primera vez que nos exponemos al mundo de la programación Front-End, aunque sí estuvimos trabajando por tres años, en una empresa dedicada a AI haciendo Language Data Analysis.
 
 Laura - [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lianguita/) - anguita.lauraisa@gmail.com
+
 Ikerne - [https://www.linkedin.com/in/ikernesg/](https://www.linkedin.com/in/ikernesg/) - ikernesanz@gmail.com
 
 Project Link: [https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
@@ -156,14 +157,16 @@ Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-
 
 Queremos agradecer a los tres profesores de este bootcamp en Ironhack; Diego Zito, Jarko Garrido y Aleix Abuli. Gracias por su tiempo, toda la información brindada, su paciencia y las horas extra para ayudarnos a solventar todo tipo de dudas. También, al SOC por facilitarnos este curso de modo que podamos seguir formándonos profesionalmente. 
 
-- [Google Font Libraries]("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap")
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
 
 – El primer reto que nos encontramos fue poder trabajar exitosamente con diferentes branches dentro de GitHub. 
+
 – El segundo reto ha sido la parte de JavaScript en la sección de Projects y Contact Us. Al ser la primera vez que nos enfrentamos a este lenguaje en temas de proyecto. 
+
 – El nivel de proyecto es muy completo y extenso. Por lo que nos tomó tiempo saber cómo organizarnos para cumplir con todos los objetivos que el proyecto conlleva. 
 
 
