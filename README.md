@@ -64,21 +64,21 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
-
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
-
 Como parte del midterm de este bootcamp se nos asignó un proyecto titulado Circle Agency. El objetivo del mismo fue diseñar una página web para una compañía ficticia de diseño web que tuviera tres aspectos principales; la página debía ser "responsive" usando HTML, CSS y JavaScript con diferentes propiedades de diseño como Flexbox y Grid. Además era necesario utilizar Vercel para lanzar la página en vivo. Un reto extra del quer hablaremos más adelante fue el uso de GitHub para poder trabajar en pareja sobre un mismo documento. 
+
+La estructura del proyecto se basó en tres páginas; una landing page, una página de proyectos y una página de Contact Us. En la landing page se muestra información general de Circle Agency. En la sección de projects se destacan los proyectos de la empresa y en el Contact Us se creó un formulario de contactos para que los usuarios se comuniquen con la empresa.
+
+Dicho esto, la pagina debía tener funcionalidades creadas con JavaScript. Entre ellas, hacer un fetch de una API para mostrar información en la sección de projects. Esto debía hacerse modificando el DOM. Otra funcionalidad fue la del formulario de Contact Us que permite a los usuarios enviar su información al API al igual que mostrar una alerta en caso de poder haber enviado correctamente o no la misma. 
+
+Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos avanzando. Muchos aspectos del trabajo se hicieron en conjunto con el deseo de aprender de las fortalezas de cada una en diferentes aspectos de lo que conocemos sobre codificar. 
+
+*** licencia del proyecto ***
+
+A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitosamente:
+    - <p align="right">(<a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a>)</p>
+    - <p align="right">(<a href="https://jsonplaceholder.typicode.com/posts">API</a>)</p>
+    - <p align="right">(<a href="https://getbutterfly.com/fast-and-accessible-css-only-client-logo-carousel/">Slider</a>)</p>
+    - <p align="right">(<a href="https://cssgrid-generator.netlify.app/">Grid Generator</a>)</p>
 
 
 
@@ -86,25 +86,13 @@ Como parte del midterm de este bootcamp se nos asignó un proyecto titulado Circ
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
-
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
+Este proyecto se construyó con HTML, CSS y JavaScript. Para lanzar el proyecto a la web utilizamos Vercel y para temas de estructura organizativa y seguridad en cuanto al progreso se utilizó GitHub con multi-branching, ya que estuvimos trabajando en pareja. Asegurando que todas las versiones del proyecto no fueran afectadas de forma negativa y todo se guardara exitosamente.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
 #### Backlog
-
-- [inProcess] Crear el CSS de landing page
 
 #### Day One
 
@@ -115,35 +103,33 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Two
 
 ###### Martes 24, Enero 2023
-- [x] Crear el HTML de landing page
-- [x] Crear el javaScript de landing page
-- [x] Crear el HTML de projects
-- [x] Crear el HTML de contact us
+- [x] Crear el HTML de Landing Page
+- [x] Crear el JavaScript de Landing Page
+- [x] Crear el HTML de Projects
+- [x] Crear el HTML de Contact Us
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
-- [x] Crear el javaScript de projects
-- [x] Crear el javaScript de contact us
-- [x] Crear el CSS de projects
-- [x] Crear el CSS de contact us
+- [x] Crear el JavaScript de Projects
+- [x] Crear el JavaScript de Contact Us
+- [x] Crear el CSS de Projects
+- [x] Crear el CSS de Contact Us
 
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
-- [] Crear el CSS de hamburger menu
-- [] Crear el HTML y CSS de splash page
-- [] Crear el CSS del circular animation
-- [] Crear el CSS de las Media Queries
-- [] Crear el CSS de sticky scroll bar
+- [x] Crear el CSS de Hamburger Menu
+- [x] Crear el CSS de las Media Queries
+- [x] Terminar CSS Landing Page
+- [x] Crear la presentación
 
 
 #### Day Five
 
 ###### Viernes 27, Enero 2023
-- [] Crear la presentación
-- [] Terminar el README
+- [x] Terminar el README
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,11 +148,15 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Como ya hemos mencionado, este proyecto se realizó en pareja por Laura Isabel Anguita e Ikerne Sanz. Para ambas es la primera vez que nos exponemos al mundo de la programación Front-End, aunque sí estuvimos trabajando por tres años, en una empresa dedicada a AI haciendo Language Data Analysis.
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Laura - [linkedIn](https://www.linkedin.com/in/lianguita/) - anguita.lauraisa@gmail.com
+Ikerne - [linkedIn](https://www.linkedin.com/in/ikernesg/) - ikernesanz@gmail.com
 
-Presentation Link: [Insert here your presentation link](insert-link-here)
+Project Link: [Circle Agency Website](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
+              [Circle Agency GitHub](https://github.com/Ikerne/midterm-ironhack)
+
+Presentation Link: [..](https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

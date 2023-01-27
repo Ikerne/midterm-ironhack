@@ -598,7 +598,7 @@ margin-bottom: 120px;
   text-align: left;
   margin-bottom: 30px;
   justify-content: space-between;
- 
+  width: 75%;
   }
   .footer-image-logo {
   text-align: left;
@@ -613,7 +613,7 @@ margin-bottom: 120px;
   align-items: right;
   justify-content: flex-end;
   text-align: center;
-  width:100%;
+  width:50vw;
   justify-items: end;
   }
 
@@ -996,6 +996,16 @@ display: none;
 }
 #questions h2{
   font-size:5vw;
+}
+
+
+/* --------------footer------------- */
+
+.footer-links {
+  width: 100%;
+}
+.address {
+  width: 80%;
 }
 
 }
