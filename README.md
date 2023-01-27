@@ -76,11 +76,11 @@ Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos a
 No hemos aplicado una licencia para este proyecto. La próxima vez usaremos Creative Commons.
 
 A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitosamente:
-    - <p align="left"><a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a></p>
-    - <p align="left"><a href="https://jsonplaceholder.typicode.com/posts">API</a></p>
-    - <p align="left"><a href="https://getbutterfly.com/fast-and-accessible-css-only-client-logo-carousel/">Slider</a></p>
-    - <p align="left"><a href="https://cssgrid-generator.netlify.app/">Grid Generator</a></p>
-    - <p align="left"><a href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap">Google Font Libraries</a></p>
+     <p align="left"><a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a></p>
+     <p align="left"><a href="https://jsonplaceholder.typicode.com/posts">API</a></p>
+     <p align="left"><a href="https://getbutterfly.com/fast-and-accessible-css-only-client-logo-carousel/">Slider</a></p>
+     <p align="left"><a href="https://cssgrid-generator.netlify.app/">Grid Generator</a></p>
+     <p align="left"><a href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap">Google Font Libraries</a></p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -144,8 +144,8 @@ Laura - [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lia
 
 Ikerne - [https://www.linkedin.com/in/ikernesg/](https://www.linkedin.com/in/ikernesg/) - ikernesanz@gmail.com
 
-Project Link: [https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
-              [https://github.com/Ikerne/midterm-ironhack](https://github.com/Ikerne/midterm-ironhack)
+Project Links: Website [https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
+              GitHub [https://github.com/Ikerne/midterm-ironhack](https://github.com/Ikerne/midterm-ironhack)
 
 Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p](https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p)
 
