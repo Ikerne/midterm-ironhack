@@ -72,7 +72,8 @@ Dicho esto, la pagina debía tener funcionalidades creadas con JavaScript. Entre
 
 Este proyecto se hizo en pareja y las tareas se dividieron a medida que ibamos avanzando. Muchos aspectos del trabajo se hicieron en conjunto con el deseo de aprender de las fortalezas de cada una en diferentes aspectos de lo que conocemos sobre codificar. 
 
-*** licencia del proyecto ***
+
+No hemos aplicado una licencia para este proyecto. La próxima vez usaremos Creative Commons.
 
 A lo largo del proyecto utilizamos enlaces como recursos para finalizarlo exitosamente:
     - <p align="right">(<a href="https://youtu.be/flItyHiDm7E">Hamburger Button</a>)</p>
@@ -137,74 +138,38 @@ Este proyecto se construyó con HTML, CSS y JavaScript. Para lanzar el proyecto 
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
-
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
-
 Como ya hemos mencionado, este proyecto se realizó en pareja por Laura Isabel Anguita e Ikerne Sanz. Para ambas es la primera vez que nos exponemos al mundo de la programación Front-End, aunque sí estuvimos trabajando por tres años, en una empresa dedicada a AI haciendo Language Data Analysis.
 
-Laura - [linkedIn](https://www.linkedin.com/in/lianguita/) - anguita.lauraisa@gmail.com
-Ikerne - [linkedIn](https://www.linkedin.com/in/ikernesg/) - ikernesanz@gmail.com
+Laura - [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lianguita/) - anguita.lauraisa@gmail.com
+Ikerne - [https://www.linkedin.com/in/ikernesg/](https://www.linkedin.com/in/ikernesg/) - ikernesanz@gmail.com
 
-Project Link: [Circle Agency Website](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
-              [Circle Agency GitHub](https://github.com/Ikerne/midterm-ironhack)
+Project Link: [https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
+              [https://github.com/Ikerne/midterm-ironhack](https://github.com/Ikerne/midterm-ironhack)
 
-Presentation Link: [..](https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p)
+Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p](https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
-## agradecimientos
+## Agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+Queremos agradecer a los tres profesores de este bootcamp en Ironhack; Diego Zito, Jarko Garrido y Aleix Abuli. Gracias por su tiempo, toda la información brindada, su paciencia y las horas extra para ayudarnos a solventar todo tipo de dudas. También, al SOC por facilitarnos este curso de modo que podamos seguir formándonos profesionalmente. 
 
-En esta sección se puede incluir información como:
-
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
-
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+- [Google Font Libraries]("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
 
-– El primer reto que nos encontramos fue poder trabajar exitosamente con diferentes branches dentro de gitHub. 
-– El segundo reto ha sido la parte de JavaScript en la sección de proyects. Al ser la primera vez que nos enfrentamos a este lenguaje en temas de proyecto. 
+– El primer reto que nos encontramos fue poder trabajar exitosamente con diferentes branches dentro de GitHub. 
+– El segundo reto ha sido la parte de JavaScript en la sección de Projects y Contact Us. Al ser la primera vez que nos enfrentamos a este lenguaje en temas de proyecto. 
 – El nivel de proyecto es muy completo y extenso. Por lo que nos tomó tiempo saber cómo organizarnos para cumplir con todos los objetivos que el proyecto conlleva. 
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
-
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
 
-En esta sección se puede incluir información como:
+Nuestros errores más grandes se dieron en nuestros commits a GitHub cuando había que hacer merge de las tres ramas. Se nos borraron avances en varias ocasiones y perdimos horas de trabajo tratando de solucionar este problema todos los días. No obstante, nos organizamos para trabajar en diferentes secciones del proyecto y evitar conflictos y solaparnos a la hora de hacer merge. Luego, con la ayuda de los profesores aprendimos a hacer copias de seguridad antes de los commits y merges para no perder nuestro progreso. 
 
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
-
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+Una lección que nos llevamos es que no está mal "aim high", siempre y cuando reconozcamos las limitaciones de tiempo y sea manejable el nivel del estrés del equipo. Ciertamente, nos descatacamos por lo que significa "team work makes the dream work", pero hubo momentos donde nos teníamos que recordar dónde estamos y qué debemos priorizar mantieniendo el objetivo final siempre en mente. 
