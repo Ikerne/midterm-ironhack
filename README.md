@@ -144,8 +144,8 @@ Laura - [https://www.linkedin.com/in/lianguita/](https://www.linkedin.com/in/lia
 
 Ikerne - [https://www.linkedin.com/in/ikernesg/](https://www.linkedin.com/in/ikernesg/) - ikernesanz@gmail.com
 
-Project Links: Website [https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
-              GitHub [https://github.com/Ikerne/midterm-ironhack](https://github.com/Ikerne/midterm-ironhack)
+Project Links: [https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/](https://midterm-ironhack-4rpqcuopb-ikerne.vercel.app/)
+              & [https://github.com/Ikerne/midterm-ironhack](https://github.com/Ikerne/midterm-ironhack)
 
 Presentation Link: [https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p](https://docs.google.com/presentation/d/1ALLf1G-I5kGCl5IGPHk-GV33y0MsDX1cV2_IcLf5C8I/edit#slide=id.p)
 
